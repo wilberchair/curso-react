@@ -12,7 +12,8 @@ ReactDOM.render(
   <div>
     {/* <strong>Olá React!!!</strong> */}
     <Primeiro></Primeiro>
-    <ComParametro title='Segundo Componenteeee' subtitle ='Legal'/>
+    <ComParametro title='Situação do aluno' aluno ='Wilber' nota={5.3} />
+    <ComParametro title='Situação do aluno' aluno ='Cristielly' nota={9.9} />
   </div>,
   document.getElementById('root')
 )
